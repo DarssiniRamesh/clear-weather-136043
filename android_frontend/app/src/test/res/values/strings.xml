@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Clear Weather (Test)</string>
+
+    <!-- API -->
+    <string name="openweather_api_key">YOUR_API_KEY_HERE</string>
+
+    <!-- UI -->
+    <string name="hint_city">Enter city name</string>
+    <string name="action_search">Search</string>
+
+    <!-- Labels -->
+    <string name="label_temp_value">%1$d°C</string>
+    <string name="label_humidity_value">Humidity: %1$d%%</string>
+    <string name="label_wind_value">Wind: %1$.1f m/s</string>
+
+    <!-- Placeholders -->
+    <string name="label_humidity_value_placeholder">Humidity: --%</string>
+    <string name="label_wind_value_placeholder">Wind: -- m/s</string>
+
+    <!-- Errors -->
+    <string name="error_empty_city">Please enter a city name.</string>
+    <string name="error_city_not_found">City not found. Try another name.</string>
+    <string name="error_network_generic">Unable to fetch weather. Check connection and try again.</string>
+    <string name="error_parse">Could not read weather data. Please try again.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="error_missing_api_key">Missing OpenWeatherMap API key. Please set openweather_api_key in strings.xml.</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <!-- Override API key in unit tests if needed -->
+    <string name="openweather_api_key">YOUR_API_KEY_HERE</string>
+</resources>
